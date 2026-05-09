@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Notes</title>
+    <link rel="stylesheet" href="app://app/styles.css" />
+  </head>
+  <body>
+    <main class="layout">
+      <aside class="sidebar">
+        <div class="sidebar-header">
+          <p class="eyebrow">Notes</p>
+          <button id="add-topic" class="icon-button" type="button" aria-label="Add topic folder" title="Add topic folder">+</button>
+        </div>
+        <nav id="topics-list" class="topics-list" aria-label="Configured topics"></nav>
+      </aside>
+      <section class="viewer">
+        <div class="viewer-header">
+          <div>
+            <p class="eyebrow">Preview</p>
+            <h2 id="note-title">Choose a topic</h2>
+          </div>
+          <div class="viewer-actions" aria-label="Note navigation controls">
+            <button id="navigate-back" class="icon-button" type="button" aria-label="Back" title="Back">&#8249;</button>
+            <button id="navigate-forward" class="icon-button" type="button" aria-label="Forward" title="Forward">&#8250;</button>
+            <button id="refresh-topics" class="icon-button" type="button" aria-label="Refresh notes" title="Refresh notes">&#8635;</button>
+          </div>
+        </div>
+        <iframe
+          id="note-frame"
+          class="note-frame"
+          title="Selected note"
+          sandbox="allow-same-origin allow-scripts allow-forms allow-popups"
+        ></iframe>
+        <div id="viewer-empty" class="viewer-empty" role="status">Choose a note to preview.</div>
+      </section>
+    </main>
+    <script src="app://app/app.js" type="module"></script>
+  </body>
+</html>

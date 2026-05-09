@@ -1,0 +1,114 @@
+[2m2026-05-09T17:18:47.210345Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Interactive mode requested but stdout is not a TTY, falling back to autonomous
+[2m2026-05-09T17:18:47.212219Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:18:47.212246Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: false)
+[2m2026-05-09T17:18:47.212263Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 0 memories from store
+[2m2026-05-09T17:18:47.212272Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory store is empty - no memories to inject
+[2m2026-05-09T17:23:54.519051Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:23:54.788406Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:23:54.788469Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:23:54.790374Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-05-09T17:23:54.790412Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (337 chars) into prompt
+[2m2026-05-09T17:23:54.790687Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 1 closed) into prompt
+[2m2026-05-09T17:24:51.819456Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:24:52.086568Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:24:52.086610Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:24:52.086745Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-05-09T17:24:52.086763Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (337 chars) into prompt
+[2m2026-05-09T17:24:52.086912Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 2 closed) into prompt
+[2m2026-05-09T17:25:40.293033Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:25:40.561216Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:25:40.561317Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:25:40.561656Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 1 memories from store
+[2m2026-05-09T17:25:40.561687Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 1 memories (337 chars) into prompt
+[2m2026-05-09T17:25:40.561956Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 2 closed) into prompt
+[2m2026-05-09T17:27:36.863082Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:27:36.863132Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:27:36.863336Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 3 memories from store
+[2m2026-05-09T17:27:36.863363Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 3 memories (1030 chars) into prompt
+[2m2026-05-09T17:27:36.863453Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (984 chars) into prompt
+[2m2026-05-09T17:27:36.863636Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 7 open, 2 closed) into prompt
+[2m2026-05-09T17:31:54.273520Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:31:54.273818Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:31:54.274232Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 3 memories from store
+[2m2026-05-09T17:31:54.274261Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 3 memories (1030 chars) into prompt
+[2m2026-05-09T17:31:54.274350Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1781 chars) into prompt
+[2m2026-05-09T17:31:54.274818Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 7 open, 2 closed) into prompt
+[2m2026-05-09T17:33:05.226426Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:33:05.227627Z[0m [32m INFO[0m [2mralph::loop_runner[0m[2m:[0m Wrote guidance events to events.jsonl [3mcount[0m[2m=[0m1
+[2m2026-05-09T17:33:05.227953Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Persisted human guidance to scratchpad [3mcount[0m[2m=[0m1
+[2m2026-05-09T17:33:05.228162Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:33:05.228198Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:33:05.228393Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 4 memories from store
+[2m2026-05-09T17:33:05.228423Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 4 memories (1332 chars) into prompt
+[2m2026-05-09T17:33:05.228504Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1923 chars) into prompt
+[2m2026-05-09T17:33:05.228746Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 6 open, 3 closed) into prompt
+[2m2026-05-09T17:36:55.303950Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:36:55.563587Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:36:55.563651Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:36:55.563936Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 5 memories from store
+[2m2026-05-09T17:36:55.563969Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 5 memories (1556 chars) into prompt
+[2m2026-05-09T17:36:55.564769Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (1923 chars) into prompt
+[2m2026-05-09T17:36:55.565299Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 5 open, 4 closed) into prompt
+[2m2026-05-09T17:40:05.463348Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:40:05.729827Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:40:05.729882Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:40:05.730748Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 5 memories from store
+[2m2026-05-09T17:40:05.730795Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 5 memories (1556 chars) into prompt
+[2m2026-05-09T17:40:05.730911Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (2761 chars) into prompt
+[2m2026-05-09T17:40:05.731151Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 4 open, 5 closed) into prompt
+[2m2026-05-09T17:43:20.179442Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:43:20.447510Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:43:20.447564Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:43:20.447760Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 6 memories from store
+[2m2026-05-09T17:43:20.447795Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 6 memories (1794 chars) into prompt
+[2m2026-05-09T17:43:20.447887Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (3438 chars) into prompt
+[2m2026-05-09T17:43:20.448084Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 3 open, 6 closed) into prompt
+[2m2026-05-09T17:46:29.995894Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:46:30.260125Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:46:30.260181Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:46:30.260403Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 7 memories from store
+[2m2026-05-09T17:46:30.260439Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 7 memories (2040 chars) into prompt
+[2m2026-05-09T17:46:30.260543Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (4090 chars) into prompt
+[2m2026-05-09T17:46:30.260781Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 2 open, 7 closed) into prompt
+[2m2026-05-09T17:49:50.423418Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:49:50.687320Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:49:50.687377Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:49:50.687604Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 8 memories from store
+[2m2026-05-09T17:49:50.687671Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 8 memories (2313 chars) into prompt
+[2m2026-05-09T17:49:50.687798Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (4794 chars) into prompt
+[2m2026-05-09T17:49:50.688016Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (1 ready, 1 open, 8 closed) into prompt
+[2m2026-05-09T17:56:54.900855Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:56:55.168622Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:56:55.168717Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:56:55.169162Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 11 memories from store
+[2m2026-05-09T17:56:55.169213Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 11 memories (3083 chars) into prompt
+[2m2026-05-09T17:56:55.169352Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5859 chars) into prompt
+[2m2026-05-09T17:56:55.170355Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 9 closed) into prompt
+[2m2026-05-09T17:58:08.451754Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:58:08.718766Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:58:08.718857Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:58:08.719286Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 11 memories from store
+[2m2026-05-09T17:58:08.719337Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 11 memories (3083 chars) into prompt
+[2m2026-05-09T17:58:08.719460Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5859 chars) into prompt
+[2m2026-05-09T17:58:08.719726Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 9 closed) into prompt
+[2m2026-05-09T17:58:53.796887Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T17:58:54.052894Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T17:58:54.052984Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T17:58:54.053341Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 11 memories from store
+[2m2026-05-09T17:58:54.053388Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 11 memories (3083 chars) into prompt
+[2m2026-05-09T17:58:54.053473Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5859 chars) into prompt
+[2m2026-05-09T17:58:54.053647Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 9 closed) into prompt
+[2m2026-05-09T18:00:10.913027Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T18:00:11.173808Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T18:00:11.173859Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T18:00:11.174102Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 11 memories from store
+[2m2026-05-09T18:00:11.174138Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 11 memories (3083 chars) into prompt
+[2m2026-05-09T18:00:11.174229Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5859 chars) into prompt
+[2m2026-05-09T18:00:11.174453Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 9 closed) into prompt
+[2m2026-05-09T18:00:52.127542Z[0m [33m WARN[0m [2mralph::loop_runner[0m[2m:[0m Output indicated `ralph emit`, but no event became readable before fallback logic [3mhat[0m[2m=[0mralph
+[2m2026-05-09T18:00:52.394216Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Memory injection check: enabled=true, inject=Auto, workspace_root="/Users/leo/Developer/web-notes"
+[2m2026-05-09T18:00:52.394265Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Looking for memories at: "/Users/leo/Developer/web-notes/.ralph/agent/memories.md" (exists: true)
+[2m2026-05-09T18:00:52.394505Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Successfully loaded 11 memories from store
+[2m2026-05-09T18:00:52.394546Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting 11 memories (3083 chars) into prompt
+[2m2026-05-09T18:00:52.394648Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting scratchpad (5859 chars) into prompt
+[2m2026-05-09T18:00:52.394861Z[0m [32m INFO[0m [2mralph_core::event_loop[0m[2m:[0m Injecting ready tasks (0 ready, 0 open, 9 closed) into prompt
