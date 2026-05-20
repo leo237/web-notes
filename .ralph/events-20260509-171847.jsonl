@@ -1,4 +1,0 @@
-{"ts":"2026-05-09T17:18:47.211566+00:00","iteration":0,"hat":"loop","topic":"task.start","triggered":"planner","payload":"implement the feature in .agents/planning/2026-05-09-rust-notes-app"}
-{"payload":"task-1778347627-1701 Step 1 ready: align bootstrap shell with planned app scaffolding and diagnostics foundation","topic":"tasks.ready","ts":"2026-05-09T17:27:33.348020+00:00"}
-{"payload":"task: Step 1 bootstrap shell and diagnostics foundation, tests: pass","topic":"task.complete","ts":"2026-05-09T17:31:38.820534+00:00"}
-{"payload":"ensure that the app runs as a standalone app and i don't have to run it through a shell script","topic":"human.guidance","ts":"2026-05-09T17:33:05.227570+00:00"}

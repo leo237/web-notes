@@ -1,5 +1,7 @@
 /target
 .DS_Store
+.agents/
+.ralph/
 
 # Added by cargo
 #
