@@ -9,9 +9,9 @@ The app is written in Rust with [`tao`](https://crates.io/crates/tao) for the na
 - Native macOS desktop window with a two-panel notes browser.
 - First-run folder picker for selecting an initial notes topic.
 - Add additional topic folders from the app.
-- Automatic scanning of topic folders for valid note directories.
+- Automatic scanning of topic folders for direct HTML note files.
 - Automatic sidebar refresh so newly added notes appear without manual refresh.
-- Embedded rendering of each note's `index.html`.
+- Embedded rendering of each selected HTML note.
 - Support for relative note assets such as CSS, JavaScript, images, icons, fonts, and JSON.
 - Back and forward navigation between recently selected notes.
 - Manual refresh action for immediate re-scanning.
@@ -19,35 +19,40 @@ The app is written in Rust with [`tao`](https://crates.io/crates/tao) for the na
 - Diagnostics log for startup, scan, missing-folder, and render failures.
 - Release packaging script for Apple Silicon, Intel, and universal macOS app bundles.
 
-## Note Folder Format
+## Note File Format
 
-Web Notes expects notes to be grouped by topic folder. Each direct child directory of a topic folder is treated as one note when it contains an `index.html` file.
+Web Notes expects notes to be grouped by topic folder. Each direct `.html` or `.htm` file in a topic folder is treated as one note.
 
 ```text
 My Topic/
-  Project Plan/
-    index.html
-    styles.css
-    chart.js
-    images/
-      overview.png
-  Meeting Notes/
-    index.html
+  project-plan.html
+  meeting-notes.html
+  styles.css
+  chart.js
+  images/
+    overview.png
   Scratch/
     draft.txt
 ```
 
 In this example:
 
-- `Project Plan` is a valid note.
-- `Meeting Notes` is a valid note.
-- `Scratch` is ignored because it does not contain `index.html`.
+- `project-plan.html` is a valid note.
+- `meeting-notes.html` is a valid note.
+- `Scratch/` is ignored because only direct HTML files are scanned as notes.
+- `draft.txt` is ignored because it is not an HTML file.
 
-The note title comes from the note folder name. Notes are sorted newest first by the note folder's modified time, then by title, then by folder path.
+The note title is read from the HTML content in this order:
+
+1. The document `<title>`.
+2. The first non-empty `<h1>`.
+3. The HTML file name without its extension.
+
+Notes are sorted newest first by the HTML file's modified time, then by title, then by file path.
 
 ### Assets
 
-Note assets are served relative to the note folder through the app's custom protocol. A note can reference local sibling files normally:
+Note assets are served relative to the selected HTML file's containing folder through the app's custom protocol. A note can reference local sibling files normally:
 
 ```html
 <!doctype html>
@@ -71,7 +76,7 @@ Supported content types include:
 - PNG, JPEG, GIF, SVG, WebP, ICO
 - WOFF and WOFF2 fonts
 
-Asset paths are constrained to the selected note folder. Absolute paths and paths that escape with `..` are rejected.
+Asset paths are constrained to the selected note file's containing folder. Absolute paths and paths that escape with `..` are rejected.
 
 ## Requirements
 
@@ -172,7 +177,7 @@ The log records:
 - Application startup.
 - Missing topic folders.
 - Canceled missing-folder replacements.
-- Invalid note folders.
+- Invalid note files.
 - Topic scan failures.
 - Note render failures.
 
@@ -234,12 +239,12 @@ At runtime, `src/app.rs` registers an `app://app` custom protocol. The protocol 
 - `app://app/notes/{note_id}/index.html`
 - `app://app/notes/{note_id}/{asset_path}`
 
-The web UI fetches topic snapshots from the API endpoints and displays selected notes in an iframe. Automatic refreshes use the non-interactive snapshot endpoint so background scans do not open folder picker dialogs.
+The web UI fetches topic snapshots from the API endpoints and displays selected notes in an iframe. Internally, `app://app/notes/{note_id}/index.html` maps to the selected HTML file so the iframe URL can stay stable while notes are stored as direct files. Automatic refreshes use the non-interactive snapshot endpoint so background scans do not open folder picker dialogs.
 
 ## Current Limitations
 
 - The app is focused on browsing existing HTML notes; it does not edit notes.
-- Only direct child directories of a topic folder are scanned as notes.
-- A note must include `index.html`.
+- Only direct `.html` and `.htm` files in a topic folder are scanned as notes.
+- Nested folders are ignored as note entries, though they can still contain referenced assets.
 - App bundles are not currently signed or notarized by the packaging script.
 - The UI is currently desktop-oriented and optimized for macOS app window usage.
