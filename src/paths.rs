@@ -4,7 +4,7 @@ use anyhow::{Result, anyhow};
 use directories::ProjectDirs;
 
 const QUALIFIER: &str = "dev";
-const ORGANIZATION: &str = "openai";
+const ORGANIZATION: &str = "panigrahi";
 const APPLICATION: &str = "web-notes";
 
 #[derive(Debug, Clone, PartialEq, Eq)]

@@ -10,7 +10,7 @@
   <key>CFBundleIconFile</key>
   <string>WebNotes.icns</string>
   <key>CFBundleIdentifier</key>
-  <string>dev.openai.web-notes</string>
+  <string>dev.panigrahi.web-notes</string>
   <key>CFBundleInfoDictionaryVersion</key>
   <string>6.0</string>
   <key>CFBundleName</key>

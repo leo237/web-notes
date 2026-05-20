@@ -137,7 +137,7 @@ Web Notes uses `directories::ProjectDirs` with:
 
 ```text
 qualifier:    dev
-organization: openai
+organization: panigrahi
 application:  web-notes
 ```
 
